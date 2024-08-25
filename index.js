@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 main().catch(err => console.log(err));
 
 async function main() {
-    await mongoose.connect("mongodb+srv://Ravi_Kumar:Ravi%40123@cluster0.bnkfpnx.mongodb.net/?retryWrites=true", {
+    await mongoose.connect("mongodb+srv://rohillaporav138:4Feb1970@cluster0.gycna.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
         useNewUrlParser: true,
         useUnifiedTopology: true
     });
